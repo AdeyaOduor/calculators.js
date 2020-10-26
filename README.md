@@ -1,2 +1,2 @@
-# -lakehub_calculator_project
+# calculator assignment
 javaScript calculator
