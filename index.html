@@ -4,11 +4,19 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Calculator</title>
   </head>
-  <body>
-    <div id='main-container'>
-          <form name="calculator">  
-            <input type="text" id="userInput" /><div id="result"></div>
-   
+  <body>	
+    <script>
+	function calcNumbers(result){
+		form.displayResult.value=form.displayResult.value+result;
+		
+	}
+	</script>
+	<div class="main-container">
+		<form name="form">
+		<div class="display">
+		<input type="text" placeholder="0" name="displayResult" />
+		</div>
+		<div class="buttons">
         <div id="button-container">
             <button type="button" class="btn" value="CE" id="clear-entry">CE</button>
             <button type="button" class="btn" value="C" id="clear">C</button>
