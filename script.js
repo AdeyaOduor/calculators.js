@@ -1,7 +1,7 @@
 // select all the buttons
-const buttons = document.querySelectorAll('button');
+let buttons = document.querySelectorAll('button');
 // select the <input type="text" class="display" disabled> element
-const display = document.querySelector('.display');
+let display = document.querySelector('.display');
 
 // add eventListener to each button
 buttons.forEach(function(button) {
@@ -11,7 +11,7 @@ buttons.forEach(function(button) {
 // calculate function
 function calculate(event) {
   // current clicked buttons value
-  const clickedButtonValue = event.target.value;
+  let clickedButtonValue = event.target.value;
 
   if (clickedButtonValue === '=') {
     // check if the display is not empty then only do the calculation
