@@ -9,7 +9,10 @@
 .button-container{
   position: relative;
   float: right;
-  margin-top: 15px;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 0px auto;
+  padding: 20px 20px 100px 20px;
 }
 input[type=button] {
   background: lightGray;
