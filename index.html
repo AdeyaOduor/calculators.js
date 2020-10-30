@@ -1,24 +1,21 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Calculator</title>
   </head>
   <body>
-    <div id="main-container">
-        <div id="display-container">
-            <p id="memory"></p>
-            <p id="memory">0</p>
-            <h2 id="display">0</h2>
-        </div>
+    <div id='main-container'>
+  
+          <form name="calculator">
+            
+            <input type="text" name="answer" />
+            </div>
         <div id="button-container">
             <button type="button" class="btn" value="CE" id="clear-entry">CE</button>
             <button type="button" class="btn" value="C" id="clear">C</button>
-            <button type="button" class="btn" value="?" id="backspace">backspace</button>
             <button type="button" class="btn" value="delete" id="delete">del</button>
+            <button type="button" class="btn" value="%" id="modulus">%</button>
             <br/>
             <button type="button" class="operator-btn" value="/" id="divide">/</button>
             <button type="button" class="number-btn" value="7" id="seven">7</button>
@@ -41,8 +38,10 @@
             <button type="button" class="btn" value="." id="decimal">.</button>
             <br/>
             <button type="button" class="btn" value="=" id="equals">=</button>
+            <button type="button" class="btn" value="?" id="backspace">backspace</button>
+            <br/>
         </div>
-        <script src="script.js"></script>
-    </div>       
+    </div> 
+    <script src="script.js"></script>
  </body>
 </html>
