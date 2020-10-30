@@ -1,41 +1,48 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>javaScript Calculator Project</title>
-    <meta charset="UTF-8"/>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
     <div id="main-container">
         <div id="display-container">
             <p id="memory"></p>
             <p id="memory">0</p>
-            <h1 id="display">0</h1>
+            <h2 id="display">0</h2>
         </div>
         <div id="button-container">
             <button type="button" class="btn" value="CE" id="clear-entry">CE</button>
             <button type="button" class="btn" value="C" id="clear">C</button>
             <button type="button" class="btn" value="?" id="backspace">backspace</button>
             <button type="button" class="btn" value="delete" id="delete">del</button>
+            <br/>
             <button type="button" class="operator-btn" value="/" id="divide">/</button>
             <button type="button" class="number-btn" value="7" id="seven">7</button>
             <button type="button" class="number-btn" value="8" id="eight">8</button>
             <button type="button" class="number-btn" value="9" id="nine">9</button>
+            <br/>
             <button type="button" class="operator-btn" value="*" id="multiply">X</button>
             <button type="button" class="number-btn" value="4" id="four">4</button>
             <button type="button" class="number-btn" value="5" id="five">5</button>
             <button type="button" class="number-btn" value="6" id="six">6</button>
+            <br/>
             <button type="button" class="operator-btn" value="-" id="subtract">-</button>
             <button type="button" class="number-btn" value="1" id="one">1</button>
             <button type="button" class="number-btn" value="2" id="two">2</button>
             <button type="button" class="number-btn" value="3" id="three">3</button>
+            <br/>
             <button type="button" class="operator-btn" value="+" id="add">+</button>
             <button type="button" class="btn" value="+/-" id="plus-minus">+/-</button>
             <button type="button" class="number-btn" value="0" id="zero">0</button>
             <button type="button" class="btn" value="." id="decimal">.</button>
+            <br/>
             <button type="button" class="btn" value="=" id="equals">=</button>
         </div>
-    </div>
-       <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </div>       
+ </body>
 </html>
