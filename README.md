@@ -1,2 +1,0 @@
-# calculator assignment
-javaScript calculator
