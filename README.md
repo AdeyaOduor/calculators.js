@@ -1,18 +1,12 @@
-# JavaScript-calculator
+# JavaScript-calculators
 
-An online calculator with basic arithmetic operations built using HTML5, CSS3 and JS ES6 features.
-It can be controlled by a mouse or by a keyboard. For starting your own calculations 
+Calculators with basic arithmetic operations built using HTML5, CSS3 and JS ES6 features.
 
 ## Features
 
-* All basic operations are supported (divide, multiple, remainder, add, subtract).
+* All basic mathematical operations are supported (divide, multiple, remainder, add, subtract).
 * Operations performed using __BODMAS__ rule and follows order of precendence from MDN Library.
 * Keyboard inputs are supported for numbers, opertaors and other options.
-* Comes with options to __clear/delete__ a single input (backspace) OR __clear__ the whole display.
-
-## Acknowledgement
-
-Project inspiration from [The Odin Project](https://www.theodinproject.com/home).
 
 ## License
 
