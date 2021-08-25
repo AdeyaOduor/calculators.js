@@ -1,1 +1,1 @@
-# mortgage-loan-calculator
+# mortgage loan calculator
