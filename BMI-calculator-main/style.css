@@ -3,7 +3,7 @@
     height: 525px;
     margin-left: 350px;
     margin-top: 65px;
-    background-color: yellow;
+    background-color: pupple;
     padding-left: 30px;
 }
 #height, #weight {
@@ -21,7 +21,7 @@
     font-size: 35px;
     margin-left: 90px;
     margin-top: 20px;
-    color: blue;
+    color: occean blue;
 }
 
 button{
@@ -31,7 +31,7 @@ button{
     margin-top: 25px;
     border-radius: 5px;
     border-style: none;
-    background-color: blue;
+    background-color: sky blue;
     color: #fff;
     font-size: 25px;
 }
