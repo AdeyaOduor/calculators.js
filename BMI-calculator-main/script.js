@@ -23,7 +23,8 @@ form.addEventListener('submit', function(e){
     
 });
 
-//notes
-//NaN !== NaN, use the isNaN() function
-//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
+//function bmi(weight, height) {
+  //const $ = weight / height**2;
+  //return $ <= 18.5 ? 'Underweight' : $ <= 25.0 ? 'Normal' : $ <= 30.0 ? 'Overweight' : 'Obese';
+//}
 
