@@ -8,16 +8,14 @@ form.addEventListener('submit', function(e){
     const results = document.querySelector('#results');
     
     if((height === '') || (height < 0) || (isNaN(height))){
-        //NaN !== NaN
-        results.innerHTML = "Please provide a valid height";
+        results.innerHTML = "Please provide a valid height";  //NaN !== NaN
         
     } else if (weight === '' || weight < 0 || isNaN(weight)){
         results.innerHTML = "Please provide a valid weight";
     } else {
     //calculate BMI
     const bmi = (weight / ((height*height)/10000)).toFixed(2);
-    //display the results
-    results.innerHTML = `<span>${bmi}</span>`
+    results.innerHTML = `<span>${bmi}</span>` //display the results
     }
     
     
