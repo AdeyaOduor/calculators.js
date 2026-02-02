@@ -14,6 +14,20 @@ calculators/
 * Operations performed using __BODMAS__ rule and follows order of precendence from MDN Library.
 * Keyboard inputs are supported for numbers, opertaors and other options.
 
+# To Run:
+### Navigate to your project folder
+cd /path/to/your-project
+
+### Start the server
+python3 -m http.server 8080
+
+### Or specify port 3000 (default is 8000)
+python3 -m http.server 3000
+
+### Keep server running in background
+python3 -m http.server 8000 > server.log 2>&1 &
+
+
 ## License
 
 * [MIT License](https://opensource.org/licenses/MIT)
