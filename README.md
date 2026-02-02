@@ -2,7 +2,13 @@
 
 Calculators with basic arithmetic operations built using HTML5, CSS3 and Vanilla JS.
 
-## Features
+## Architecture and Features:
+
+calculators/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
 
 * All basic mathematical operations are supported (divide, multiple, remainder, add, subtract).
 * Operations performed using __BODMAS__ rule and follows order of precendence from MDN Library.
