@@ -27,6 +27,32 @@ python3 -m http.server 3000
 ### Keep server running in background
 python3 -m http.server 8000 > server.log 2>&1 &
 
+Option B: Using Node.js/npm
+
+# If you have package.json with dependencies
+npm install
+npm start
+
+# Or create a simple server with Express
+# Create server.js:
+cat > server.js << 'EOF'
+const express = require('express');
+const app = express();
+const path = require('path');
+
+app.use(express.static(path.join(__dirname, '.')));
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+app.listen(3000, () => {
+    console.log('Server running at http://localhost:3000');
+});
+EOF
+
+# Then run:
+node server.js
 
 ## License
 
