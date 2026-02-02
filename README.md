@@ -27,14 +27,14 @@ python3 -m http.server 3000
 ### Keep server running in background
 python3 -m http.server 8000 > server.log 2>&1 &
 
-Option B: Using Node.js/npm
+# Option B: Using Node.js/npm
 
-# If you have package.json with dependencies
+** If you have package.json with dependencies
 npm install
 npm start
 
-# Or create a simple server with Express
-# Create server.js:
+** Or create a simple server with Express
+** Create server.js:
 cat > server.js << 'EOF'
 const express = require('express');
 const app = express();
@@ -51,7 +51,7 @@ app.listen(3000, () => {
 });
 EOF
 
-# Then run:
+** Then run:
 node server.js
 
 ## License
